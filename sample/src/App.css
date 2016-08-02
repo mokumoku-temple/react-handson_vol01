@@ -1,1 +1,45 @@
 
+.container {
+  font-family: helvetica, arial, 'hiragino kaku gothic pro', meiryo, 'ms pgothic', sans-serif;
+  font-size: 11px;
+}
+.like {
+  display: inline-block;
+  background: #3b5998;
+  padding: 0px 5px;
+  border-radius: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}
+.likeHover {
+  background: #444;
+}
+.counterBefore {
+  display: block;
+  float: left;
+  width: 6px;
+  height: 6px;
+  background: #fafafa;
+  margin-left: -12px;
+  border-right: 10px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-top: 6px;
+  border-left: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+.counter {
+  display: block;
+  background: #fafafa;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  float: left;
+  padding: 0px 8px;
+  border-radius: 2px;
+  margin-left: 8px;
+  height: 20px;
+  line-hight: 20px;
+}
